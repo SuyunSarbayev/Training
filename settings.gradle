@@ -1,2 +1,3 @@
+include ':apicore'
 include ':app'
 rootProject.name = "Training"

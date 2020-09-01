@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="320dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:cardElevation="16dp"
+            app:cardCornerRadius="12dp"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:layout_height="300dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"/>
+        </androidx.cardview.widget.CardView>
+    </android.support.constraint.ConstraintLayout>
+</layout>

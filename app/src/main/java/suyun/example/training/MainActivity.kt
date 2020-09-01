@@ -1,13 +1,17 @@
 package suyun.example.training
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        Log.d("First", "3")
+
+        val fragmentManager  = supportFragmentManager
+
+        fragmentManager.beginTransaction()
+            .add(R.id.framelayout_activity_main_container, MainFragment(), "MainFragment")
+            .commit()
     }
 }
