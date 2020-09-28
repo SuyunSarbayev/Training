@@ -40,6 +40,10 @@ class SplashFragment : Fragment() {
             Log.d("CHANGED", it.toString())
         })
         viewModel.initiateRequestWeather()
+        Log.d("CHANGED", "1")
+        Log.d("CHANGED", "2")
+        Log.d("CHANGED", "3")
+
     }
 }
 
