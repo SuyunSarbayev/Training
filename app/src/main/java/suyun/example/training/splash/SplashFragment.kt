@@ -43,6 +43,10 @@ class SplashFragment : Fragment() {
         Log.d("CHANGED", "1")
         Log.d("CHANGED", "2")
         Log.d("CHANGED", "3")
+        Log.d("CHANGED", "4")
+        Log.d("CHANGED", "5")
+        Log.d("CHANGED", "6")
+
 
     }
 }
