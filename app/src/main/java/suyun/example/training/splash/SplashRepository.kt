@@ -23,12 +23,6 @@ class SplashRepository(var api: Api, var coroutineProvider: CoroutineProvider) :
                         weatherLiveData.value = result.body()
                     }
             }
-
-//            val response = api.weather("e2a9b7bc30msh709c69b38658668p1dd189jsn7ddbbf2641b2")
-//
-//            if (response.isSuccessful && response.body() != null) {
-//                weatherLiveData.value = response.body()
-//            }
         }
     }
 }
